@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>選擇題</title>
+</head>
+<body>
+  <div id="question"></div>
+  <div id="options"></div>
+  <div id="result"></div>
+
+  <script>
+    const questions = [
+      {
+        question: "什麼語言是用於網頁開發的？",
+        options: ["Java", "Python", "JavaScript", "C++"],
+        correctAnswer: "JavaScript"
+      },
+      {
+        question: "HTML 是什麼的縮寫？",
+        options: ["Hyper Text Markup Language", "High Tech Modern Language", "Hyperlink and Text Markup Language", "None of the above"],
+        correctAnswer: "Hyper Text Markup Language"
+      }
+    ];
+
+    const questionElement = document.getElementById('question');
+    const optionsElement = document.getElementById('options');
+    const resultElement = document.getElementById('result');
+
+    let currentQuestionIndex = 0;
+
+    function showQuestion() {
+      const question = questions[currentQuestionIndex];
+      questionElement.innerText = question.question;
+      optionsElement.innerHTML = "";
+      question.options.forEach(option => {
+        const button = document.createElement('button');
+        button.innerText = option;
+        button.addEventListener('click', selectOption);
+        optionsElement.appendChild(button);
+      });
+    }
+
+    function selectOption(event) {
+      const selectedOption = event.target.innerText;
+      const question = questions[currentQuestionIndex];
+      if (selectedOption === question.correctAnswer) {
+        resultElement.innerText = '正確！';
+      } else {
+        resultElement.innerText = '錯誤，請再試一次。';
+      }
+      currentQuestionIndex++;
+      if (currentQuestionIndex < questions.length) {
+        showQuestion();
+      } else {
+        resultElement.innerText += '所有題目都回答完畢！';
+      }
+    }
+
+    showQuestion();
+  </script>
+</body>
+</html>

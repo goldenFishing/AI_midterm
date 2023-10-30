@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="select_single.js" defer></script>
+    <title>單一章節測驗</title>
+</head>
+<body>
+
+    <form onsubmit="return false;">
+        請選擇你要測驗的章節<br>
+        <input type="radio" name="chapter" value=0>1.1<br>
+        <input type="radio" name="chapter" value=1>1.2<br>
+        <input type="radio" name="chapter" value=2>1.3<br>
+        <input type="radio" name="chapter" value=3>1.4<br>
+        <input type="radio" name="chapter" value=4>1.5<br>
+        <input type="radio" name="chapter" value=5>1.6<br>
+        <button type="button" onclick="check_submit(this.form)">確定</button>
+    </form>
+    <button id="back_button">返回首頁</button>
+</body>
+</html>

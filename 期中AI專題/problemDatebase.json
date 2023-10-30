@@ -1,0 +1,708 @@
+{
+    "chapter": [
+        {
+            "//": "chapter1.1",
+            "problemValue" :10,
+            "problem" : [
+                {   
+                    "//" : "question_1",
+                    "question":"Express \"One cannot learn a foreign language well unless he/she studies hard.\\ninto symbolic logical expression where \\nf =\"one can learn a foreign language well\", \\ns =\"one studies hard\". \\nand  (~ means negation).",
+                    "optionValue":6,
+                    "answer": "~s ---> ~f",
+                    "option": [
+                        "~s ---> ~f",
+                        "~f ---> s",
+                        "~f ---> ~s",
+                        "~f ---> s",
+                        "s ---> f",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_2",
+                    "question":"Express into \"if...then...\"\\n'You can ride a bicycle only if you wear a helmet.",
+                    "optionValue":5,
+                    "answer": "If you can ride a bicycle then you wear a helmet.",
+                    "option": [
+                        "If you can ride a bicycle then you wear a helmet.",
+                        "You do not wear a helmet and you cannot ride a bicycle.",
+                        "If you wear a helmet then you can ride a bicycle.",
+                        "If you cannot ride a bicycle then you do not wear a helmet.",
+                        "There is no applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_3",
+                    "question":"State the inverse of\\nIf it snows today, I will ski tomorrow. ",
+                    "optionValue":6,
+                    "answer": "If it does not snow today then I will not ski tomorrow.",
+                    "option": [
+                        "If it does not snow today then I will not ski tomorrow.",
+                        "If I do not ski tomorrow then it does not snow today.",
+                        "It  snows today and I will ski tomorrow.",
+                        "It does not snow today but I go ski tomorrow.",
+                        "If I ski tomorrow then it snows today.",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_4",
+                    "question":"Determine the truth values of (1)-(3) if\\n(1) 1+3 = 8 if and only if  2+3 = 5.\\n(2) 1+3 = 8  unless  2+3 = 5.",
+                    "optionValue":6,
+                    "answer": "F T T",
+                    "option": [
+                        "F T T",
+                        "T T F",
+                        "T F F",
+                        "F F F",
+                        "F F T",
+                        "No  applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_5",
+                    "question":"Determine whether the given statement is a proposition, if yes, determine the truth value.\\n\" 1+2+3 \"",
+                    "optionValue":6,
+                    "answer": "It is not a proposition.",
+                    "option": [
+                        "It is not a proposition.",
+                        "It is not a proposition but the truth value is \"False\".",
+                        "It is a proposition and the truth value is \"False\".",
+                        "It is a proposition and the truth value is \"True\".",
+                        "It is not a proposition but the truth value is \"True\".",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_6",
+                    "question":"Determine whether the given statement is a proposition, if yes, determine the truth value.\\n\" If 1 + 1 = 2 or 1 + 1 = 3, then 2 + 2 = 3 and 2 + 2 = 4. \"",
+                    "optionValue":6,
+                    "answer": "It is a proposition and the truth value is \"False\".",
+                    "option": [
+                        "It is a proposition and the truth value is \"False\".",
+                        "It is not a proposition but the truth value is \"False\".",
+                        "No applicable answer.",
+                        "It is not a proposition but the truth value is \"True\".",
+                        "It is not a proposition.",
+                        "It is a proposition and the truth value is \"True\"."
+                    ]
+                },
+                {   
+                    "//" : "question_7",
+                    "question":"State the converse of\\nIf it snows today, I will ski tomorrow.",
+                    "optionValue": 6,
+                    "answer": "If I ski tomorrow then it snows today.",
+                    "option": [
+                        "If I ski tomorrow then it snows today.",
+                        "It  snows today and I will ski tomorrow.",
+                        "It does not snow today but I go ski tomorrow.",
+                        "If I do not ski tomorrow then it does not snow today.",
+                        "If it does not snow today then I will not ski tomorrow.",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_8",
+                    "question":"Given the proposition q⊕(p∧q) \\ndetermine the truth values of (1)-(3) when\\n(1) p = True, q = True.\\n(2) p = False, q = True.\\n(3) p = True, q = False.",
+                    "optionValue":6,
+                    "answer": "No  applicable answer.",
+                    "option": [
+                        "No  applicable answer.",
+                        "F F T",
+                        "F F F",
+                        "T F F",
+                        "F T T",
+                        "T T F"
+                    ]
+                },
+                {   
+                    "//" : "question_9",
+                    "question":"Translate into symbolic logical expression\\n\"You will not reach the summit unless you begin your climb early.\"\\nwhere\\ns = \"you reach the summit\"\\ne = \"you begin climb early\" \\nand  (~ means negation).",
+                    "optionValue":5,
+                    "answer": "s → e",
+                    "option": [
+                        "s → e",
+                        "e Λ s",
+                        "~s Λ e",
+                        "e → s",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_10",
+                    "question":"Evaluate'\n'$ 0 1010 ∧ (1 1100 ⊕ 1 0010) $\\n(∧ means \"and\", ⊕ means \"xor\")",
+                    "optionValue":6,
+                    "answer": "No applicable answer",
+                    "option": [
+                        "No applicable answer",
+                        "1  0011",
+                        "1  1010",
+                        "1  0101",
+                        "1  1001",
+                        "0  1110"
+                    ]
+                }
+            ]
+        },
+        {
+            "//": "chapter1.2",
+            "problemValue" :7,
+            "problem" : [
+                {   
+                    "//" : "question_1",
+                    "question":"Let p, q, and r be the propositions\\np : You get an A on the final exam.\\nq : You do every exercise in this book.\\nr : You get an A in this class.\\nWrite the proposition using p, q, and r and logical connectives (including negations).\\nYou will get an A in this class if and only if you either do every exercise in this book or you get an A on the final. ",
+                    "optionValue":7,
+                    "answer": "r↔(p∨q)",
+                    "option": [
+                        "r↔(p∨q)",
+                        "p∧q∧r",
+                        "p∧q→r",
+                        "r→p",
+                        "r∧~q",
+                        "p∧→~q∧r",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_2",
+                    "question":"An island has two kinds of inhabitants, knights, who always tell the truth, and knaves, who always lie.\\nYou encounter two islanders A and B. Determine what A, B are if \\nA says \"at least one of us is a knight\" and \\nB says nothing.",
+                    "optionValue":5,
+                    "answer": "No applicable answer.",
+                    "option": [
+                        "No applicable answer.",
+                        "\"A is a knight and B is a knave\" is the only possibility.",
+                        "Both of them are knights is the only possibility.",
+                        "Two possibilities: both of them are knights or both of them are knaves.",
+                        "\"A is a knave and B is a knight\" is the only possibility."
+                    ]
+                },
+                {   
+                    "//" : "question_3",
+                    "question":"Let p, q, and r be the propositions\\np : You get an A on the final exam.\\nq : You do every exercise in this book.\\nr : You get an A in this class.\\nWrite the proposition using p, q, and r and logical connectives (including negations).\\nTo get an A in this class, it is necessary for you to get an A on the final.",
+                    "optionValue":6,
+                    "answer": "r→p",
+                    "option": [
+                        "r→p",
+                        "r∧~q",
+                        "p∧q→r",
+                        "p∧q∧r",
+                        "p∧~q∧r",
+                        "r↔(p∨q)"
+                    ]
+                },
+                {   
+                    "//" : "question_4",
+                    "question":"Let p, q, and r be the propositions\\np : You get an A on the final exam.\\nq : You do every exercise in this book.\\nr : You get an A in this class.\\nWrite the proposition using p, q, and r and logical connectives (including negations).\\nYou get an A on the final, you do every exercise in this book, and you get an A in this class.",
+                    "optionValue":6,
+                    "answer": "p∧q∧r",
+                    "option": [
+                        "p∧q∧r",
+                        "p∧q→r",
+                        "r→p",
+                        "r∧~q",
+                        "r↔(p∨q)",
+                        "p∧~q∧r"
+                    ]
+                },
+                {   
+                    "//" : "question_5",
+                    "question":"Consider the following system specifications:\\n1. Whenever the system software is being upgraded, users cannot access the file system. If users can access the file system, then they can save new files. If users cannot save new files, then the system software is not being upgraded.\\n2. The diagnostic message is stored in the buffer or it is retransmitted. The diagnostic message is neither stored in the buffer nor retransmitted. If the diagnostic message is not stored in the buffer, then it is retransmitted.\\nWhich of the above system specifications are consistent? ",
+                    "optionValue":4,
+                    "answer": "Only 1.",
+                    "option": [
+                        "Only 1.",
+                        "Both.",
+                        "No applicable answer.",
+                        "Only 2."
+                    ]
+                },
+                {   
+                    "//" : "question_6",
+                    "question":"Choose the statement that are equivalent to\\n\"Jane will swim unless the water is too cold\"",
+                    "optionValue":5,
+                    "answer": "If the water is not too cold then Jane will swim.",
+                    "option": [
+                        "If the water is not too cold then Jane will swim.",
+                        "If Jane swims then the water is not too cold.",
+                        "If the water is too cold then Jane will not swim.",
+                        "Jane swims and the water is not too cold.",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_7",
+                    "question":"Translate into symbolic logical expression:\\nYou can graduate only if you have completed the requirements of your major and you do not owe money to the university.\\nwhere\\ng: you can graduate\\nc: you have completed the requirements of your major\\no: you owe money to the university",
+                    "optionValue":5,
+                    "answer": "g→(c∧~o)",
+                    "option": [
+                        "g→(c∧~o)",
+                        "(g→c)∧~o",
+                        "(c→g)∧~o",
+                        "c→g∧~o",
+                        "c→(g∧~o)"
+                    ]
+                }
+            ]
+        },
+        {
+            "//": "chapter1.3",
+            "problemValue" :6,
+            "problem" : [
+                {   
+                    "//" : "question_1",
+                    "question":"Choose the negation of \"John is not rich but he is smart\" ",
+                    "optionValue":5,
+                    "answer": "No applicable answer.",
+                    "option": [
+                        "No applicable answer.",
+                        "John is not rich or he is not smart.",
+                        "John is not rich and he is not smart.",
+                        "John is rich but not smart.",
+                        "John is not rich but smart."
+                    ]
+                },
+                {   
+                    "//" : "question_2",
+                    "question":"Which one is a contingency? ",
+                    "optionValue":4,
+                    "answer": "~p∧q",
+                    "option": [
+                        "~p∧q",
+                        "~p∨p",
+                        "p∧~p",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_3",
+                    "question":"What is the name of the following logical equivalence?\\np∧(q∧r)⇔(p∧q)∧r",
+                    "optionValue":7,
+                    "answer": "Associative laws",
+                    "option": ["Associative laws",
+                                "Distributive laws",
+                                "Negation laws",
+                                "De Morgan's laws",
+                                "Commutative laws",
+                                "Domination laws",
+                                "No applicable answer."
+                            ]
+                },
+                {   
+                    "//" : "question_4",
+                    "question":"Choose the negation of \"If the water is too cold then Jane will not swim\" ",
+                    "optionValue":5,
+                    "answer": "The water is too cold but Jane swims.",
+                    "option": [
+                        "The water is too cold but Jane swims.",
+                        "If Jane swims then the water is not too cold.",
+                        "If the water is not too cold then Jane swims.",
+                        "If the water is too cold then Jane swims.",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_5",
+                    "question":"Which one is a contradiction? ",
+                    "optionValue":4,
+                    "answer": "p∧~p",
+                    "option": [
+                        "p∧~p",
+                        "~p∧q",
+                        "~p∨p",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_6",
+                    "question":"What is the name of the following logical equivalence?\\np∧~p⇔F",
+                    "optionValue":8,
+                    "answer": "Negation laws",
+                    "option": [
+                        "Negation laws",
+                        "Distributive laws",
+                        "Associative laws",
+                        "Negation laws",
+                        "Commutative laws",
+                        "Domination laws",
+                        "De Morgan's laws",
+                        "No applicable answer."
+                    ]
+                }
+            ]
+        },
+        {
+            "//": "chapter1.4",
+            "problemValue" :10,
+            "problem" : [
+                {   
+                    "//" : "question_1",
+                    "question":"Given domain ={-1, 3}, simplify the proposition such that it does not have quantifier and use only ¬ ∧ ∨\\n∀x((x≥0→P(x))",
+                    "optionValue":7,
+                    "answer": "P(3)",
+                    "option": [
+                        "P(4)",
+                        "P(-1)",
+                        "T",
+                        "P(-1) and P(3)",
+                        "P(3)",
+                        "P(-1) or P(3)",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_2",
+                    "question":"Let C(x) ≡ x has a cat, D(x) ≡ x has a dog, R(x) ≡x has a rabbit. Domain = {all students in your class} Translate into symbolic logic expression.\\nFor each of the three animals, cats, dogs, and rabbits, there is a student in your class who has this animal as a pet.",
+                    "optionValue":6,
+                    "answer": "∃xC(x) ∧ ∃xD(x) ∧ ∃xR(x)",
+                    "option": ["∃xC(x) ∧ ∃xD(x) ∧ ∃xR(x)",
+                                "∀x(C(x) ∧ D(x) ∧ R(x))",
+                                "∀xC(x) ∧ D(x) ∧ R(x)",
+                                "∃x(C(x) ∧ ∃xD(x) ∧ ∃xR(x))",
+                                "∀xC(x) ∧ ∀xD(x) ∧ ∀xR(x)",
+                                "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_3",
+                    "question":"Translate \"No one is perfect\" into symbolic logical expression\\nwhere domain={all people}, predicate P(x) = \"x is perfect\"",
+                    "optionValue":6,
+                    "answer": "∀x¬P(x)",
+                    "option": [
+                        "∀x¬P(x)",
+                        "∃x¬P(x)",
+                        "∀xP(¬x)",
+                        "∃xP(x)",
+                        "∃xP(¬x)",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_4",
+                    "question":"The following proposition is not true\\n∀x(P(x)→Q(x))\\nwhere x is an integer with predicates:\\nP(x)= \"the last digit of x is 4\", Q(x) = \"x is a multiple of 8.\"\\nWhich of the number(s) can serve as a counterexample?",
+                    "optionValue":6,
+                    "answer": "34",
+                    "option": [
+                        "34",
+                        "10",
+                        "0",
+                        "8",
+                        "64",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_5",
+                    "question":"Choose the negation of the following proposition where x is a real number:\\n∀x(-2＜x≤3)",
+                    "optionValue":6,
+                    "answer": "No applicable answer",
+                    "option": [
+                        "No applicable answer",
+                        "∀x(x<-2 or x≥3)",
+                        "∃x(-2≥x＞3)",
+                        "∃x(-2＞x≥3)",
+                        "∀x(-2＞x≥3)",
+                        "∃x(x<-2 or x≥3)"
+                    ]
+                },
+                {   
+                    "//" : "question_6",
+                    "question":"If the domain is {11, 12,..., 20}, determine the number of elements in the domain making the following predicate to be true.\\nP(x)→Q(x)\\nwhere x is an integer with predicates:\\nP(x)= \"the last digit of x is 4\", Q(x) = \"x is a multiple of 8.\"",
+                    "optionValue":6,
+                    "answer": "No applicable answer",
+                    "option": [
+                        "No applicable answer",
+                        "8",
+                        "4",
+                        "0",
+                        "6",
+                        "1"
+                    ]
+                },
+                {   
+                    "//" : "question_7",
+                    "question":"Given domain ={-1, 3}, simplify the proposition such that it does not have quantifier and use only ¬ ∧ ∨ \\n∃x((x≥0∧P(x))",
+                    "optionValue":6,
+                    "answer": "P(3)",
+                    "option": [
+                        "P(3)",
+                        "P(-1) or P(3)",
+                        "P(-1)",
+                        "T",
+                        "P(-1) and P(3)",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_8",
+                    "question":"Given predicates P(x) = “x is a prime number” where x is a positive integer. Determine the truth values of the following:\\n(a) P(3) ---> P(33)\\n(b) P(33) ---> P(333)\\n(c) P(2) ---> P(17)",
+                    "optionValue":6,
+                    "answer": "F T T",
+                    "option": [
+                        "F T T",
+                        "T T T",
+                        "T T F",
+                        "F F T",
+                        "T F T",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_9",
+                    "question":"Let P(x) = \"x + 1 > 2x\" If the domain consists of the integers,what are the truth values?\\n(a)  P(0)\\n(b)  P(-1)\\n(c)  ∃x(¬P(x))",
+                    "optionValue":6,
+                    "answer": "T T T",
+                    "option": [
+                        "T T T",
+                        "F T F",
+                        "F T T",
+                        "F F T",
+                        "T F T",
+                        "No applicable answer"
+                    ]
+                },
+                {   
+                    "//" : "question_10",
+                    "question":"Simplify the expression so that no negation symbol on the left of quantifiers\\n¬∃xP(x)",
+                    "optionValue":6,
+                    "answer": "∀x(¬P(x))",
+                    "option": [
+                        "∀x(¬P(x))",
+                        "¬∀x(¬P(x))",
+                        "∀x(P(¬x))",
+                        "∃x(P(¬x))",
+                        "∃x(¬P(x))",
+                        "No applicable answer"
+                    ]
+                }
+            ]
+        },
+        {
+            "//": "chapter1.5",
+            "problemValue" :8,
+            "problem" : [
+                {   
+                    "//" : "question_1",
+                    "question":"Translate the following three statements into symbolic expressions from (1)~(6) where L(x,y)=\"x loves y\", x, y are people:\\nThere is somebody whom everyone loves.\\nEveryone is loved by somebody.\\nNobody loves everybody.\\n(1)∃x∀y L(x,y) (2)∃y∀x L(x,y) (3)∀y∃x L(x,y)\\n(4)∀x∃y¬L(x,y) (5)∃x∀y¬L(x,y) (6)∀y∃x¬L(x,y)\\nFor ex., if \"1 2 3\" is chosen then you agree the three sentences should be first (1), next (2), and lastly (3).",
+                    "optionValue":6,
+                    "answer": "2  3  4",
+                    "option": [
+                        "2  3  4",
+                        "2  4  6",
+                        "1  3  5",
+                        "1  2  3",
+                        "3  4  5",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_2",
+                    "question":"Suppose the variable x represents students, y represents courses, and T(x, y) means “x is taking y”.\\nTranslate into a symbolic statement with equivalent English statement:\\nEvery course is being taken by at least one student.",
+                    "optionValue":6,
+                    "answer": "∀y∃x T(x,y)",
+                    "option": [
+                        "∀y∃x T(x,y)",
+                        "∀x∃y T(x,y)",
+                        "∃y∀x T(x,y)",
+                        "∃x∀y¬T(x,y)",
+                        "∃x∀y T(x,y)",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_3",
+                    "question":"Choose the one most suitable where x, y are people\\nThere is some person who relies upon everybody.\\nwhere R(x, y) = \"x relies upon y\"",
+                    "optionValue":6,
+                    "answer": "∃x∀y  R(x,y)",
+                    "option": [
+                        "∃x∀y  R(x,y)",
+                        "∀x(∃yR(x,y))",
+                        "∀x∀y  R(x,y)",
+                        "∀y∃x  R(x,y)",
+                        "∃y∀x  R(x,y)",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_4",
+                    "question":"Suppose P(x, y) is a predicate and the domain for the variables x and y is {1, 2, 3}. Suppose P(1, 3), P(2, 1), P(2, 2), P(2, 3), P(3, 1), P(3, 2) are true, and P(x, y) is false otherwise.  Determine the truth values of the statements.\\n(1)∃x∀y P(x,y)\\n(2)∀x∃y P(x,y) \\n(3)∃y∀x P(x,y)",
+                    "optionValue":6,
+                    "answer": "T  T  F",
+                    "option": [
+                        "T  T  F",
+                        "T  F  F",
+                        "F  T  F",
+                        "T  F  T",
+                        "F  F  T",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_5",
+                    "question":"Suppose P(x, y) is a predicate and the domain for the variables x and y is {1, 2, 3}. Suppose P(1, 3), P(2, 1), P(2, 2), P(2, 3), P(3, 1), P(3, 2) are true, and P(x, y) is false otherwise.  Determine the truth values of the statements.\\n(1)¬∃x∃y  P(x,y)\\n(2)∀x∃y¬P(x,y) \\n(3)∃x∃y (P(x,y)⊕P(y,x))",
+                    "optionValue":6,
+                    "answer":   "F  F  T",
+                    "option": [
+                                "F  F  T",
+                                "T  F  F",
+                                "T  F  T",
+                                "T  T  F",
+                                "F  T  F",
+                                "No applicable answer."
+                            ]
+                },
+                {   
+                    "//" : "question_6",
+                    "question":"Determine the truth values of the statements.\\n(1) ∀x∀y∃z(z≤min(x,y)),where x,y,z are real\\n(2) ∀x(x^2≠x) where x is an integer number.\\n(3) ∀x∃y(x=y^3) where x,y ae real numbers.",
+                    "optionValue":6,
+                    "answer": "T  F  T",
+                    "option": [
+                        "T  F  T",
+                        "F  T  F",
+                        "T  F  F",
+                        "T  T  F",
+                        "F  F  T",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_7",
+                    "question":"P(x, y) = \"x + 2y > xy\"  where x and y are integers. Determine the truth values of the statements.\\n(1) ∃y P(3,y)\\n(2) P(1,-1)\\n(3) ∀y∃xP(x,y)",
+                    "optionValue":6,
+                    "answer": "T  F  T",
+                    "option": [
+                        "T  F  T",
+                        "T  T  F",
+                        "T  F  F",
+                        "F  F  T",
+                        "F  T  F",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_8",
+                    "question":"Given x and y are real numbers, determine the truth values of the statements.\\n(1) ∀x∃y (x^2=y)\\n(2) ∀x∃y (x=y^2)\\n(3) ∃x∀y (y≠0→xy=1)",
+                    "optionValue":6,
+                    "answer": "T  F  F",
+                    "option": [
+                        "T  F  F",
+                        "F  F  T",
+                        "F  T  F",
+                        "T  T  F",
+                        "T  F  T",
+                        "No applicable answer."
+                    ]
+                }
+            ]
+        },
+        {
+            "//": "chapter1.6",
+            "problemValue" :7,
+            "problem" : [
+                {   
+                    "//" : "question_1",
+                    "question":"Determine the validity of the following arguments:\\n(1) If the sun is out, then it rains. It rains. Therefore, the sun is out.\\n(2) If the sun is out, then it rains. It rains. Therefore, the sun is not out.\\n(3) If the sun is out, then it rains. The sun is out. Therefore, it rains.\\nPs. T means it is valid, and F otherwise. ",
+                    "optionValue":6,
+                    "answer": "No applicable answer.",
+                    "option": [
+                        "No applicable answer.",
+                        "T  T  T",
+                        "T  T  F",
+                        "F  T  F",
+                        "F  F  F",
+                        "T  F  F"
+                    ]
+                },
+                {   
+                    "//" : "question_2",
+                    "question":"Which inference rule is about\\n(p→q)∧p→q is a tautology",
+                    "optionValue":7,
+                    "answer": "Modus Ponens",
+                    "option": [
+                        "Modus Ponens",
+                        "Addition",
+                        "Disjunctive Syllogism",
+                        "Hypothetical Syllogism",
+                        "Modus Tollens",
+                        "Simplification",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_3",
+                    "question":"Which inference rule is used in the following:\\nIf I go for a balanced diet, then I will be fit. If I will be fit, then I will remain healthy. Therefore, if I go for a balanced diet, then I will remain healthy.",
+                    "optionValue":7,
+                    "answer": "Hypothetical Syllogism",
+                    "option": [
+                        "Hypothetical Syllogism",
+                        "Modus Ponens",
+                        "Addition",
+                        "Simplification",
+                        "Disjunctive Syllogism",
+                        "Modus Tollens",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_4",
+                    "question":"Which inference rule is used in the following:\\nThe grass is green or the sky is blue. The grass is not green. Therefore, the sky is blue.",
+                    "optionValue":7,
+                    "answer": "Disjunctive Syllogism",
+                    "option": [
+                        "Disjunctive Syllogism",
+                        "Addition",
+                        "Modus Ponens",
+                        "Hypothetical Syllogism",
+                        "Simplification",
+                        "Modus Tollens",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_5",
+                    "question":"Which inference rule is used in the following:\\nJay is an awesome student. Jay is also a good dancer. Therefore, Jay is an awesome student and a good dancer.",
+                    "optionValue":7,
+                    "answer": "No applicable answer.",
+                    "option": [
+                        "No applicable answer.",
+                        "Disjunctive Syllogism",
+                        "Simplification",
+                        "Modus Ponens",
+                        "Hypothetical Syllogism",
+                        "Modus Tollens",
+                        "Addition"
+                    ]
+                },
+                {   
+                    "//" : "question_6",
+                    "question":"Which inference rule is used in the following:\\nIt is cloudy and drizzling now. Therefore, it is cloudy now.",
+                    "optionValue":7,
+                    "answer": "Simplification",
+                    "option": [
+                        "Simplification",
+                        "Disjunctive Syllogism",
+                        "Modus Ponens",
+                        "Addition",
+                        "Modus Tollens",
+                        "Hypothetical Syllogism",
+                        "No applicable answer."
+                    ]
+                },
+                {   
+                    "//" : "question_7",
+                    "question":"Which inference rule is used in the following:\\nIf it hails（冰雹） today, the local office will be closed. The local office is not closed today. Thus, it did not hailed today.",
+                    "optionValue":7,
+                    "answer": "Modus Tollens",
+                    "option": [
+                        "Modus Tollens",
+                        "Modus Ponens",
+                        "Disjunctive Syllogism",
+                        "Simplification",
+                        "Addition",
+                        "Hypothetical Syllogism",
+                        "No applicable answer."
+                    ]
+                }
+            ]
+        }
+    ]
+}

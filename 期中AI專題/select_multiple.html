@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>複數章節測驗</title>
+</head>
+<body>
+    <button id="submit_button">確定</button>
+    <button id="back_button"  >返回首頁</button>
+
+    <script>
+        const buttonSubmit = document.getElementById('submit_button');
+        const buttonBack   = document.getElementById('back_button');
+
+        buttonSubmit.addEventListener('click', function(){
+            window.location.href = 'test_multiple.html';
+        });
+        buttonBack.addEventListener('click', function(){
+            window.location.href = 'homePage.html';
+        });
+    </script>
+</body>
+</html>

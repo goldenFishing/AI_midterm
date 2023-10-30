@@ -1,0 +1,15 @@
+
+#back-button {
+    position: fixed;
+    right: 0;
+    top: 7%;
+    width: 8em;
+    margin-top: -2.5em;
+}
+#save-button{
+    position: fixed;
+    right: 20%;
+    top: 7%;
+    width: 8em;
+    margin-top: -2.5em;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+    <h>離散數學 Discrete mathematics</h>
+    <span>
+        <p>請選擇你要測驗的章節數量</p>
+        <button id="button_single"  >單一章節</button>
+        <br>
+        <button id="button_multiple">複數章節</button>
+    </span>
+
+    <script>
+        const buttonSingle   = document.getElementById('button_single');
+        const buttonMultiple = document.getElementById('button_multiple');
+
+        buttonSingle.addEventListener('click', function() {
+            window.location.href = 'select_single.html';
+        });
+        buttonMultiple.addEventListener('click', function() {
+            window.location.href = 'select_multiple.html';
+        });
+    </script>
+</body>
+</html>
